@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="ParameterTest">
+ 
+  <test thread-count="5" name="TestPareameters">
+    
+    <parameter name="city" value="city1">    </parameter>
+    <parameter name="cityname" value="Blore">    </parameter>
+    
+    <classes>
+      <class name="Basics.Listenerexample1"/>
+    </classes>
+   
+  </test> <!-- TestPare -->
+</suite> <!-- ParameterTest -->

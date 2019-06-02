@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteRetryAnalyzer">
+   
+  <listeners>
+  <listener class-name="analyzer.MyAnnotationTransformer"/>
+  </listeners>
+ 
+ <test name="retryfailedcases">
+ 
+    <classes>
+      <class name="listerners.MyTestCases"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->
